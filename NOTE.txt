@@ -1,0 +1,20 @@
+npm i mocha --save-dev 
+
+// cmd (utile)
+changer reporter
+mocha -R    nyan (mon preferer)
+            spec (default)
+            tap (mon preferer)
+            list
+            json-stream
+            min (mlay)
+// arrêter l'execution une fois il y a un erreur (bail)
+mocha -b  
+
+// filtrer le test par nom (grep)
+mocha -g Percentage 
+mocha -g '#evolution'
+mocha -g 'should handle 0 evolution' 
+mocha -R tap -g Percentage
+on peut le faire aussi à notre fichier comme changant it par it.only
+
