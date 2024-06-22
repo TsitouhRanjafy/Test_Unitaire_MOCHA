@@ -16,5 +16,7 @@ mocha -g Percentage
 mocha -g '#evolution'
 mocha -g 'should handle 0 evolution' 
 mocha -R tap -g Percentage
-on peut le faire aussi à notre fichier comme changant it par it.only
+// mot clée
+it.only pour qu'il est le seul à executer
+it.skip pour mettre en pending son execution
 
