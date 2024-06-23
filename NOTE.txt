@@ -20,3 +20,10 @@ mocha -R tap -g Percentage
 it.only pour qu'il est le seul à executer
 it.skip pour mettre en pending son execution
 
+/**
+ * Mocha utlise CommonJS et chai utilise ES
+ * CommonJS utilise require et ES utilise import
+ * ERR_REQUIRE_ESM veut dire qu'on essait de charger module ES avec require
+ * Alors notre ecriture est en ES
+ * JSON "type" : "module"
+ */
