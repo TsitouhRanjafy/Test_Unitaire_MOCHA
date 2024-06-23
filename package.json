@@ -1,16 +1,28 @@
 {
   "name": "demo",
+  "type": "module", 
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsitouhRanjafy/Test_Unitaire_MOCHA.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsitouhRanjafy/Test_Unitaire_MOCHA/issues"
+  },
+  "homepage": "https://github.com/TsitouhRanjafy/Test_Unitaire_MOCHA#readme",
   "devDependencies": {
-    "@types/mocha": "^10.0.6",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "chai": "^5.1.1",
     "mocha": "^10.4.0",
     "typescript": "^5.5.2"
-  }
+  },
+  "//": "mocha is our preference, but you can use any test runner you like"
 }
