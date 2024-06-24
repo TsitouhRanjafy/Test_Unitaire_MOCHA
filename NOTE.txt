@@ -27,3 +27,28 @@ it.skip pour mettre en pending son execution
  * Alors notre ecriture est en ES
  * JSON "type" : "module"
  */
+
+
+
+Chai est une bibliothèque d'assertions pour JavaScript et Node.js qui offre plusieurs avantages et raisons de l'utiliser dans vos tests :
+
+    - Syntaxe expressive: Chai offre une syntaxe fluide et expressive qui rend vos assertions facile à lire et à comprendre. Vous pouvez choisir parmi différentes interfaces comme expect, assert, ou should, en fonction de votre style préféré.
+
+    - Compatibilité: Chai est compatible avec plusieurs frameworks de test populaires comme Mocha, Jasmine, Jest, etc. Cela vous permet d'intégrer facilement Chai dans votre infrastructure de test existante.
+
+    - Richesse des assertions: Chai propose une large gamme d'assertions prédéfinies pour tester différents types de valeurs (égalité, inclusion, type, etc.). Cela simplifie la rédaction de tests couvrant divers scénarios.
+
+    - Personnalisable: Vous pouvez étendre Chai avec vos propres assertions personnalisées si les assertions prédéfinies ne suffisent pas à vos besoins spécifiques. Cela vous permet d'adapter Chai à votre projet spécifique et d'améliorer la lisibilité et la maintenabilité de vos tests.
+
+    - Documentation détaillée: Chai est bien documenté avec des exemples et des guides clairs, ce qui facilite l'apprentissage et l'utilisation de la bibliothèque, surtout pour les développeurs débutants.
+
+    - Communauté active: Chai bénéficie d'une communauté active et de mises à jour régulières, ce qui garantit que la bibliothèque reste à jour avec les meilleures pratiques et les évolutions de JavaScript.
+
+expect, assert, et should sont trois styles d'assertions différents que vous pouvez utiliser pour écrire vos tests
+
+    * expect est généralement recommandé pour sa syntaxe fluide et sa clarté, rendant les assertions facilement compréhensibles. (mon préferer)
+
+    * assert est utile pour les assertions directes et simples sans nécessiter de créer un objet expect.
+
+    * should est préféré pour ceux qui préfèrent une approche basée sur les propriétés (property-based) où les valeurs sont enrichies avec des méthodes d'assertion directement sur leur prototype.
+
