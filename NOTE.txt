@@ -52,3 +52,10 @@ expect, assert, et should sont trois styles d'assertions différents que vous po
 
     * should est préféré pour ceux qui préfèrent une approche basée sur les propriétés (property-based) où les valeurs sont enrichies avec des méthodes d'assertion directement sur leur prototype.
 
+
+// sinon.js
+Création d'un class pour permettre combien de fois un article a été partager sur facebook
+install promise
+install request
+
+
